@@ -25,7 +25,10 @@ def factorial(n):
 
 
 def fibonacci(n):
-    """Calculate the nth Fibonacci number using recursion."""
+    """
+    Calculate the nth Fibonacci number using recursion.
+    Note: This is intentionally inefficient for demonstration.
+    """
     if n <= 0:
         return 0
     elif n == 1:

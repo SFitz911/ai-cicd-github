@@ -15,6 +15,7 @@ def reverse_string(s: str) -> str:
     """Reverse a string."""
     return s[::-1]
 
+
 def factorial(n):
     """Calculate the factorial of n."""
     if n < 0:
@@ -35,3 +36,17 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+def power(base, exponent):
+    """
+    Calculate base raised to the power of exponent.
+    
+    Args:
+        base: The base number
+        exponent: The power to raise the base to
+        
+    Returns:
+        The result of base^exponent
+    """
+    return base ** exponent

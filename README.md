@@ -97,6 +97,8 @@ ci-starter/
 └── pyproject.toml
 ```
 
+[![.github/workflows/pr-review.yml](https://github.com/SFitz911/ai-cicd-github/actions/workflows/pr-review.yml/badge.svg)](https://github.com/SFitz911/ai-cicd-github/actions/workflows/pr-review.yml)
+
 ## Troubleshooting Guide
 
 ### Common Errors & Solutions
